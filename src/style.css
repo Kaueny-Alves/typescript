@@ -1,0 +1,27 @@
+.container {
+  width: 900px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  border: 2px solid rgba(56, 1, 53, 0.2);
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: purple;
+  padding: 8px;
+  width: 200px; 
+ cursor: pointer;
+ box-shadow: 2px 2px 2px 1px rgba(235, 11, 223, 0.2);
+}
+
